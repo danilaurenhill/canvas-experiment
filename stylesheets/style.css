@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+h1 {
+  font-size: 2.36859em;
+  color: #569480;
+  text-align: center;
+  margin-bottom: 70px; }
+
+@media screen and (min-width: 750px) {
+  .right-tiles {
+    text-align: center; }
+    .right-tiles .squares {
+      margin: 15px;
+      display: inline; }
+
+  .left-tiles {
+    text-align: center; }
+    .left-tiles .squares {
+      margin-top: 16;
+      margin: 15px;
+      display: inline; } }
+
+/*# sourceMappingURL=style.css.map */
