@@ -2,6 +2,7 @@
   margin-bottom: 15px;
   text-align: center;
   .squares {
+    @include omega(3n);
     margin: 10px;
     display: inline-block;
   }

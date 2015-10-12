@@ -4,6 +4,10 @@
 
 @import "layout_mobile";
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1250px) {
   @import "layout_desktop";
+}
+
+@media screen and (min-width: 850px) {
+  @import "layout_tablet";
 }
