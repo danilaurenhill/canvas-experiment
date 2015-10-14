@@ -1,15 +1,18 @@
-.right-tiles {
-  text-align: center;
-  .squares {
-    margin: 12px;
-    display: inline;
+.animation {
+  margin-top: 120px;
+  .right-tiles {
+    text-align: center;
+    .squares {
+      margin: 12px;
+      display: inline;
+    }
   }
-}
-.left-tiles {
-  text-align: center;
-  margin-top: 20px;
-  .squares {
-    margin: 12px;
-    display: inline;
+  .left-tiles {
+    text-align: center;
+    margin-top: 20px;
+    .squares {
+      margin: 12px;
+      display: inline;
+    }
   }
 }
