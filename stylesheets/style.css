@@ -25,41 +25,43 @@ h1 {
     margin-top: 9px;
     color: black; }
 
-.sprite {
-  width: 50px;
-  height: 72px;
-  background-image: url("http://s.cdpn.io/79/sprite-steps.png");
-  -webkit-animation: play 0.8s steps(10) infinite;
-  -moz-animation: play 0.8s steps(10) infinite;
-  -ms-animation: play 0.8s steps(10) infinite;
-  -o-animation: play 0.8s steps(10) infinite;
-  animation: play 0.8s steps(10) infinite; }
+/*.sprite {
+    width: 50px;
+    height: 72px;
+    background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+    
+    -webkit-animation: play .8s steps(10) infinite;
+       -moz-animation: play .8s steps(10) infinite;
+        -ms-animation: play .8s steps(10) infinite;
+         -o-animation: play .8s steps(10) infinite;
+            animation: play .8s steps(10) infinite;
+}
 
 @-webkit-keyframes play {
-  from {
-    background-position: 0px; }
-  to {
-    background-position: -200px; } }
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+}
+
 @-moz-keyframes play {
-  from {
-    background-position: 0px; }
-  to {
-    background-position: -200px; } }
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+}
+
 @-ms-keyframes play {
-  from {
-    background-position: 0px; }
-  to {
-    background-position: -200px; } }
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+}
+
 @-o-keyframes play {
-  from {
-    background-position: 0px; }
-  to {
-    background-position: -200px; } }
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+}
+
 @keyframes play {
-  from {
-    background-position: 0px; }
-  to {
-    background-position: -200px; } }
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+}
+*/
 .animation {
   margin-top: 120px; }
   .animation .right-tiles {
